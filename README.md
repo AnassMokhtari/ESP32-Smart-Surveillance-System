@@ -25,3 +25,9 @@ This system provides:
 - **Buzzer** (Audible alarm)
 - **LEDs** (Visual indicators)
 - **Breadboard & jumper wires**
+
+## 📚 Libraries Used
+- [Universal Telegram Bot Library](https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot)
+- [ArduinoJSON](https://github.com/bblanchon/ArduinoJson)
+- [LiquidCrystal_I2C](https://github.com/johnrickman/LiquidCrystal_I2C)
+- [Keypad](https://github.com/Chris--A/Keypad)
