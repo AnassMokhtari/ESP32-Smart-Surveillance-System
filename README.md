@@ -49,4 +49,5 @@ This system provides:
    - Communicates with Telegram bot
   
 ## 🔌 Wiring Diagram
-![Wiring Diagram](docs/Wiring_Diagram.png) 
+![Wiring Diagram](docs/Wiring_Diagram.png)
+**NOTE** : the arduino is used to upload code to the esp32 cam module using UART protocol since I didnt have the **he ESP32-CAM-MB USB Programmer** 
