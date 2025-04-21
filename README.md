@@ -15,3 +15,13 @@ This system provides:
 ✅ Two-factor deactivation (physical keypad + remote Telegram code)  
 ✅ Visual feedback via 16×2 LCD display  
 ✅ Audible alarm with buzzer  
+
+## 🛠 Hardware Components
+- **ESP32** (Main controller)
+- **ESP32-CAM** (Camera module for photo capture)
+- **HC-SR04 Ultrasonic Sensor** (Distance measurement)
+- **4×4 Matrix Keypad** (Physical security code input)
+- **16×2 LCD with I2C** (System status display)
+- **Buzzer** (Audible alarm)
+- **LEDs** (Visual indicators)
+- **Breadboard & jumper wires**
