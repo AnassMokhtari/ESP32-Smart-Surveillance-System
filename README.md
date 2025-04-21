@@ -51,7 +51,7 @@ This system provides:
 ## 🔌 Wiring Diagram
 ![Wiring Diagram](docs/Wiring_Diagram.png)
 **NOTE** : the arduino is used to upload code to the esp32 cam module using UART protocol since I didn't have 
-the  **he ESP32-CAM-MB USB Programmer** . For more detail consult the following video : 
+the  **ESP32-CAM-MB USB Programmer** . For more detail consult the following video : 
 - [Programming of ESP32 Cam Module with Arduino board](https://www.youtube.com/watch?v=k528CUAIgf0&ab_channel=GENIUSTECHNOLOGY)
 
 ### 📸 ESP32-CAM Connections
