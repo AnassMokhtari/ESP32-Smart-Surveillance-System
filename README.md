@@ -50,4 +50,40 @@ This system provides:
   
 ## 🔌 Wiring Diagram
 ![Wiring Diagram](docs/Wiring_Diagram.png)
-**NOTE** : the arduino is used to upload code to the esp32 cam module using UART protocol since I didnt have the **he ESP32-CAM-MB USB Programmer** 
+**NOTE** : the arduino is used to upload code to the esp32 cam module using UART protocol since I didnt have the **he ESP32-CAM-MB USB Programmer** . For more detail consult the following video : 
+- [Programming of ESP32 Cam Module with Arduino board](https://www.youtube.com/watch?v=k528CUAIgf0&ab_channel=GENIUSTECHNOLOGY)
+
+### 📸 ESP32-CAM Connections
+| Component       | ESP32-CAM Pin | Connection Notes              |
+|-----------------|---------------|--------------------------------|
+| Camera Module   | Internal      | OV2640 built-in               |
+| Flash LED       | GPIO 4        | Built-in LED (Active Low)     |
+| 5V Power Input  | 5V            | Requires stable 2A power supply|
+| Ground          | GND           | Common ground                 |
+
+### 🏠 Main ESP32 Connections
+| Component       | ESP32 Pin | Connection Type  | Notes                      |
+|----------------|-----------|------------------|----------------------------|
+| **Ultrasonic HC-SR04** |          |                  |                            |
+| VCC            | 5V        | Power            |                            |
+| TRIG           | GPIO 27   | Digital Output   |                            |
+| ECHO           | GPIO 36   | Digital Input    |                            |
+| GND            | GND       | Ground           |                            |
+| **4×4 Keypad** |           |                  |                            |
+| ROW1           | GPIO 32   | Digital Output   |                            |
+| ROW2           | GPIO 33   | Digital Output   |                            |
+| ROW3           | GPIO 25   | Digital Output   |                            |
+| ROW4           | GPIO 26   | Digital Output   |                            |
+| COL1           | GPIO 4    | Digital Input    | Internal pull-up enabled   |
+| COL2           | GPIO 18   | Digital Input    | Internal pull-up enabled   |
+| COL3           | GPIO 19   | Digital Input    | Internal pull-up enabled   |
+| COL4           | GPIO 2    | Digital Input    | Internal pull-up enabled   |
+| **I2C LCD 16×2** |         |                  |                            |
+| VCC            | 5V        | Power            |                            |
+| GND            | GND       | Ground           |                            |
+| SDA            | GPIO 21   | I2C Data         |                            |
+| SCL            | GPIO 22   | I2C Clock        |                            |
+| **Indicators** |           |                  |                            |
+| Buzzer         | GPIO 13   | PWM Output       | Active High               |
+| Green LED      | GPIO 14   | Digital Output   | Current limiting resistor |
+| Red LED        | GPIO 12   | Digital Output   | Current limiting resistor |
