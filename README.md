@@ -31,3 +31,19 @@ This system provides:
 - [ArduinoJSON](https://github.com/bblanchon/ArduinoJson)
 - [LiquidCrystal_I2C](https://github.com/johnrickman/LiquidCrystal_I2C)
 - [Keypad](https://github.com/Chris--A/Keypad)
+
+## 🖥 Software Architecture
+
+### System Components
+1. **ESP32-CAM Module** (Camera Node)
+   - Handles photo capture
+   - Connects to WiFi
+   - Sends photos via Telegram bot
+   - Runs HTTP server for remote triggering
+
+2. **Main ESP32 Controller** (Alarm Node)
+   - Monitors ultrasonic sensor
+   - Manages alarm state
+   - Handles keypad input
+   - Controls LCD display and buzzer
+   - Communicates with Telegram bot
