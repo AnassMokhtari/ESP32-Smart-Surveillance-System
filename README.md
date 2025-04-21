@@ -8,3 +8,10 @@ This system provides:
 - Automatic photo capture and Telegram alerts
 - Remote alarm deactivation via Telegram or physical keypad
 - Visual and audible alarms (LCD display, buzzer, LED indicators)
+
+### Key Features
+✅ Motion detection with HC-SR04 ultrasonic sensor  
+✅ Instant Telegram notifications with intruder photos  
+✅ Two-factor deactivation (physical keypad + remote Telegram code)  
+✅ Visual feedback via 16×2 LCD display  
+✅ Audible alarm with buzzer  
