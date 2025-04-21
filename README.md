@@ -47,3 +47,6 @@ This system provides:
    - Handles keypad input
    - Controls LCD display and buzzer
    - Communicates with Telegram bot
+  
+## 🔌 Wiring Diagram
+![Wiring Diagram](docs/Wiring_Diagram.png) 
