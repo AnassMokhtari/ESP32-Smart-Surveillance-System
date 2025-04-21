@@ -7,21 +7,21 @@
 #include <HTTPClient.h>
 
 // Wi-Fi credentials
-const char* ssid = "Anass";
-const char* password = "12345678";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 
 // Telegram Bot Token and Chat ID
-#define BOT_TOKEN "7265411641:AAEcLpOP9MCBUtlT7nG7otJiKIVkM0A_-GU"
-#define CHAT_ID "6270611836"
+#define BOT_TOKEN "YOUR_BOT_TOKEN"
+#define CHAT_ID "YOUR_CHAT_ID"
 
 // ESP32-CAM details
-const String camIP = "192.168.137.62"; // Replace with your ESP32-CAM's IP
+const String camIP = "ESP32_CAM_IP_ADDRESS"; // Replace with your ESP32-CAM's IP
 const String camPhotoPath = "/trigger_photo";
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOT_TOKEN, client);
 unsigned long lastTimeBotChecked = 0;
-const unsigned long botCheckInterval = 7000; // Check every second important 
+const unsigned long botCheckInterval = 7000; // Check every 7 seconds
 
 // Component Pins (on ESP32)
 #define TRIG_PIN     27   // Ultrasonic TRIG
