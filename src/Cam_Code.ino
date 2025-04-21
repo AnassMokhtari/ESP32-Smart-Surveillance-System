@@ -8,12 +8,12 @@
 #include <ArduinoJson.h>
 #include <WebServer.h>
 
-const char* ssid = "Anass";
-const char* password = "12345678";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 
 // Initialize Telegram BOT
-String BOTtoken = "7265411641:AAEcLpOP9MCBUtlT7nG7otJiKIVkM0A_-GU";  // your Bot Token (Get from Botfather)
-String CHAT_ID = "6270611836";
+#define BOT_TOKEN "YOUR_BOT_TOKEN"
+#define CHAT_ID "YOUR_CHAT_ID"
 
 bool sendPhoto = false;
 
