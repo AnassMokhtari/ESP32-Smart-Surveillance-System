@@ -26,7 +26,7 @@ This system provides:
 - **LEDs** (Visual indicators)
 - **Breadboard & jumper wires**
 
-## 📚 Libraries Used
+## Libraries Used
 - [Universal Telegram Bot Library](https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot)
 - [ArduinoJSON](https://github.com/bblanchon/ArduinoJson)
 - [LiquidCrystal_I2C](https://github.com/johnrickman/LiquidCrystal_I2C)
